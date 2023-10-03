@@ -5,7 +5,7 @@ Below, I'm sharing a blog that outlines the various changes I made to the projec
 
 ## restructuring of the asset tree
 
-![Logo de GitHub](https://github.com/README.img/three.png)
+![Logo de GitHub](https://github.com/nocthulh/Protect-the-Moon-RMX23051/tree/main/README.imgREADME.img/three.png)
 
  
 
