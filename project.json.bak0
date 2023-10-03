@@ -1,0 +1,27 @@
+{
+    "project_name": "Protect_The_Moon_RMX23",
+    "version": "1.0.0",
+    "project_id": "{9FD756DB-91A2-44A4-9946-AA35B96ECFCD}",
+    "origin": "The primary repo for Protect_The_Moon_RMX23 goes here: i.e. http://www.mydomain.com",
+    "license": "What license Protect_The_Moon_RMX23 uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "Protect_The_Moon_RMX23",
+    "summary": "A short description of Protect_The_Moon_RMX23.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Protect_The_Moon_RMX23"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "gem_names": [
+        "Protect_The_Moon_RMX23",
+        "Atom",
+        "CameraFramework",
+        "ImGui"
+    ],
+    "restricted": "Protect_The_Moon_RMX23"
+}
