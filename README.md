@@ -3,7 +3,7 @@
 
 Below, I'm sharing a blog that outlines the various changes I made to the project for better readability and organization.
 
-### restructuring of the asset tree
+## restructuring of the asset tree
 
 ![Logo de GitHub](https://github.com/nocthulh/Protect-the-Moon-RMX23051/blob/main/README.img/three.png)
 
