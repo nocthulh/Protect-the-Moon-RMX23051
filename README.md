@@ -5,5 +5,7 @@ Below, I'm sharing a blog that outlines the various changes I made to the projec
 
 ## restructuring of the asset tree
 
+![Logo de GitHub](https://github.com/images/logo.png)
+
  
 
