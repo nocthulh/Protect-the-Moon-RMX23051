@@ -22,7 +22,8 @@
                     "Entity_[1176639161715]",
                     "Entity_[602613131258]",
                     "Entity_[532902988676]",
-                    "Entity_[466763616338]"
+                    "Entity_[466763616338]",
+                    "Entity_[1402072807319]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -480,6 +481,7 @@
                 }
             }
         },
+        },
         "Entity_[466763616338]": {
             "Id": "Entity_[466763616338]",
             "Name": "astronaut",
@@ -517,6 +519,7 @@
                 "Component_[17854358845846336932]": {
                     "$type": "EditorSimpleMotionComponent",
                     "Id": 17854358845846336932,
+                    "PreviewInEditor": true,
                     "Configuration": {
                         "MotionAsset": {
                             "assetId": {
