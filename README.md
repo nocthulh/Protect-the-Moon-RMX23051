@@ -5,8 +5,12 @@ Below, I'm sharing a blog that outlines the various changes I made to the projec
 
 ## restructuring of the asset tree
 
-![Logo de GitHub](https://github.com/nocthulh/Protect-the-Moon-RMX23051/blob/main/README.img/three.png)
+![newthrees](https://github.com/nocthulh/Protect-the-Moon-RMX23051/blob/main/README.img/three.png)
 
 I made this change simply to organize the navigation provided by the content browser, turning characters into unique directories, which resembles the organization of the entity's components
- 
 
+## Modify the Assets for fun
+
+![newthrees](https://github.com/nocthulh/Protect-the-Moon-RMX23051/blob/main/README.img/RayGun_MM.png)
+
+Include multiple materials in the FBX file from Blender and import the .Blend file into the project.
