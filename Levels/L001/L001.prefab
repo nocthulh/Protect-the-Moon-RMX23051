@@ -481,6 +481,117 @@
                 }
             }
         },
+        "Entity_[1402072807319]": {
+            "Id": "Entity_[1402072807319]",
+            "Name": "alien_tpose",
+            "Components": {
+                "Component_[10532716534257771540]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10532716534257771540
+                },
+                "Component_[10688532985838013308]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10688532985838013308,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            9.32951545715332,
+                            -14.506599426269531,
+                            0.0
+                        ],
+                        "UniformScale": 5.0
+                    }
+                },
+                "Component_[17110018892379226966]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17110018892379226966
+                },
+                "Component_[200093671290520201]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 200093671290520201,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{D07EF73A-5F64-585C-8CEE-529DD0EDC737}",
+                            "subId": 2389346682
+                        },
+                        "assetHint": "assets/models/alien/alien_tpose.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "Component_[2059996580182205002]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2059996580182205002
+                },
+                "Component_[240979037869901189]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 240979037869901189
+                },
+                "Component_[3456975273067133322]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3456975273067133322
+                },
+                "Component_[4882681528062417305]": {
+                    "$type": "EditorSimpleMotionComponent",
+                    "Id": 4882681528062417305,
+                    "Configuration": {
+                        "MotionAsset": {
+                            "assetId": {
+                                "guid": "{A301F153-C35B-5F36-A177-B61A63AEAF3D}",
+                                "subId": 216113611
+                            },
+                            "assetHint": "assets/models/alien/alien_attack_v2.motion"
+                        },
+                        "Loop": true,
+                        "Retarget": true
+                    }
+                },
+                "Component_[8002848868334457880]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8002848868334457880
+                },
+                "Component_[8469480877303104371]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8469480877303104371
+                },
+                "Component_[8956591768219671700]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8956591768219671700
+                },
+                "Component_[9934707190143023907]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9934707190143023907,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F54A5551-FA6B-515C-A694-F09194F61C2F}"
+                                            },
+                                            "assetHint": "assets/models/alien/alien_mtrl.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 154849256
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F54A5551-FA6B-515C-A694-F09194F61C2F}"
+                                            },
+                                            "assetHint": "assets/models/alien/alien_mtrl.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
         },
         "Entity_[466763616338]": {
             "Id": "Entity_[466763616338]",
