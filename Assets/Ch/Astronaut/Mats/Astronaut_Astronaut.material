@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Astronaut_MTRL_Base_color.png",
+        "baseColor.textureMap": "../Texts/Astronaut_MTRL_Base_color.png",
         "emissive.color": [
             0.2236057072877884,
             0.06611733883619308,
@@ -18,8 +18,10 @@
         ],
         "emissive.enable": true,
         "emissive.intensity": 0.0,
-        "normal.flipY": true,
-        "normal.textureMap": "Astronaut_MTRL_Normal_OpenGL.png",
-        "opacity.factor": 1.0
+        "metallic.textureMap": "../Texts/Astronaut_MTRL_Metallic.png",
+        "normal.textureMap": "../Texts/Astronaut_MTRL_Normal.png",
+        "occlusion.diffuseTextureMap": "../Texts/Astronaut_MTRL_Mixed_AO.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "../Texts/Astronaut_MTRL_Roughness.png"
     }
 }

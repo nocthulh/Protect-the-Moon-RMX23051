@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Low_defaultMat_Base_color.png",
+        "baseColor.textureMap": "../Texts/Low_defaultMat_Base_color.png",
         "emissive.color": [
             0.002243076218292117,
             0.29372090101242065,
@@ -19,9 +19,17 @@
         "emissive.enable": true,
         "emissive.intensity": 0.0,
         "general.doubleSided": true,
+        "metallic.factor": 1.0,
+        "metallic.textureMap": "../Texts/Low_defaultMat_Metallic.png",
         "normal.flipY": true,
-        "normal.textureMap": "Low_defaultMat_Normal_OpenGL.png",
+        "normal.textureMap": "../Texts/Low_defaultMat_Normal.png",
+        "occlusion.diffuseFactor": 1.5,
+        "occlusion.diffuseTextureMap": "../Texts/Low_defaultMat_Mixed_AO.png",
         "opacity.factor": 1.0,
-        "roughness.textureMap": "Low_defaultMat_Roughness.png"
+        "parallax.factor": 0.10000000149011612,
+        "parallax.shadowFactor": 0.550000011920929,
+        "parallax.textureMap": "../Texts/Low_defaultMat_Height.png",
+        "parallax.useTexture": false,
+        "roughness.textureMap": "../Texts/Low_defaultMat_Roughness.png"
     }
 }
