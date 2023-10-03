@@ -3,7 +3,7 @@
 
 Below, I'm sharing a blog that outlines the various changes I made to the project for better readability and organization.
 
- ## "restructuring of the asset tree
+ ## restructuring of the asset tree
 
  
 
