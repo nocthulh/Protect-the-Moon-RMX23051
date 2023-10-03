@@ -41,7 +41,10 @@
         "ScriptEvents",
         "StartingPointInput",
         "TextureAtlas",
-        "WhiteBox"
+        "WhiteBox",
+        "SurfaceData",
+        "Terrain",
+        "Vegetation"
     ],
     "restricted": "Protect_The_Moon_RMX23",
     "engine_version": "23.05.1"
