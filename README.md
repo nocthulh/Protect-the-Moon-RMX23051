@@ -11,6 +11,6 @@ I made this change simply to organize the navigation provided by the content bro
 
 ## Modify the Assets for fun
 
-![newthrees](https://github.com/nocthulh/Protect-the-Moon-RMX23051/blob/main/README.img/RayGun_MM.png)
+- Include multiple materials in the FBX file from Blender and import the .Blend file into the project. ![newthrees](https://github.com/nocthulh/Protect-the-Moon-RMX23051/blob/main/README.img/RayGun_MM.png)
 
-Include multiple materials in the FBX file from Blender and import the .Blend file into the project.
+
