@@ -1,0 +1,354 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Enemy_soldier_alien",
+        "Components": {
+            "Component_[10497001725868950681]": {
+                "$type": "EditorLockComponent",
+                "Id": 10497001725868950681
+            },
+            "Component_[11423526346441056297]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 11423526346441056297
+            },
+            "Component_[12945491200446445502]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12945491200446445502
+            },
+            "Component_[13182172002121826554]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13182172002121826554,
+                "Parent Entity": ""
+            },
+            "Component_[14188052593431166968]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14188052593431166968
+            },
+            "Component_[2120800574529944650]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2120800574529944650,
+                "Child Entity Order": [
+                    "Entity_[6429308066337]"
+                ]
+            },
+            "Component_[3572122802957811203]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3572122802957811203
+            },
+            "Component_[5117486021746959681]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5117486021746959681
+            },
+            "Component_[8091813982509738576]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8091813982509738576
+            },
+            "Component_[825756295888279715]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 825756295888279715
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[5334091405857]": {
+            "Id": "Entity_[5334091405857]",
+            "Name": "alien_tpose",
+            "Components": {
+                "Component_[1002203306290007987]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 1002203306290007987,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{0D0A0EE9-4B58-57D6-B4E1-167CBF37B530}",
+                            "subId": 2389346682
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/ch/alien/geo/alien_tpose.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "Component_[1010903256677783346]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1010903256677783346,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3819506318465809566
+                        },
+                        {
+                            "ComponentId": 1002203306290007987,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[11996674529591796737]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11996674529591796737
+                },
+                "Component_[14504173773417735235]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14504173773417735235
+                },
+                "Component_[14731031878075457115]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14731031878075457115
+                },
+                "Component_[16054768485879796051]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16054768485879796051
+                },
+                "Component_[18096166203706965004]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18096166203706965004
+                },
+                "Component_[2052521153884839225]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2052521153884839225
+                },
+                "Component_[2915515463286804494]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2915515463286804494,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{45D3E872-E656-583E-A25B-A7142766BB10}"
+                                        },
+                                        "assetHint": "assets/models/ch/alien/mats/alien_mtrl.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3819506318465809566]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3819506318465809566,
+                    "Parent Entity": "Entity_[6429308066337]",
+                    "Transform Data": {
+                        "UniformScale": 4.0
+                    }
+                },
+                "Component_[8035609554189601947]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8035609554189601947
+                }
+            }
+        },
+        "Entity_[6429308066337]": {
+            "Id": "Entity_[6429308066337]",
+            "Name": "Enemy",
+            "Components": {
+                "Component_[10966123322586292820]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10966123322586292820,
+                    "Child Entity Order": [
+                        "Entity_[5334091405857]"
+                    ]
+                },
+                "Component_[13943863176968006426]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13943863176968006426
+                },
+                "Component_[14061068149766624421]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14061068149766624421
+                },
+                "Component_[1760236639505475241]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1760236639505475241
+                },
+                "Component_[18199358991337893419]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18199358991337893419
+                },
+                "Component_[2832088925113668031]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2832088925113668031
+                },
+                "Component_[4403255196431139096]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 4403255196431139096,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{98D55C76-B373-5729-BAD7-E9A401CB60ED}",
+                            "path": "Assets/Models/Ch/Alien/Scripts/EnemyMove.scriptcanvas"
+                        },
+                        "sourceName": "EnemyMove.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{98D55C76-B373-5729-BAD7-E9A401CB60ED}",
+                                "path": "Assets/Models/Ch/Alien/Scripts/EnemyMove.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{295F3476-4E49-47B6-9C8A-8DF6E19C8A16}"
+                                    },
+                                    "VariableName": "MoveY",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{4E2645FE-845E-4BB7-9CD8-F4517153C0D6}"
+                                    },
+                                    "VariableName": "ResetRowTime",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{A011B2C7-1B70-40E6-911D-12E7CC4676F1}"
+                                    },
+                                    "VariableName": "DelayX",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{AEB37DA8-130D-4F00-8E4B-0132F846DEE6}"
+                                    },
+                                    "VariableName": "MoveX",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{295F3476-4E49-47B6-9C8A-8DF6E19C8A16}"
+                                    },
+                                    "VariableName": "MoveY",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 10.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{4E2645FE-845E-4BB7-9CD8-F4517153C0D6}"
+                                    },
+                                    "VariableName": "ResetRowTime",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{A011B2C7-1B70-40E6-911D-12E7CC4676F1}"
+                                    },
+                                    "VariableName": "DelayX",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{AEB37DA8-130D-4F00-8E4B-0132F846DEE6}"
+                                    },
+                                    "VariableName": "MoveX",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7496389218819019193]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7496389218819019193,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[776093962527043832]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 776093962527043832
+                },
+                "Component_[9413365294656699768]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9413365294656699768
+                }
+            }
+        }
+    }
+}

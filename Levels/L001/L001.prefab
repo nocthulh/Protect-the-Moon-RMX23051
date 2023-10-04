@@ -22,7 +22,8 @@
                     "Entity_[1176639161715]",
                     "Entity_[602613131258]",
                     "Entity_[466763616338]",
-                    "Entity_[2907434883617]"
+                    "Entity_[2907434883617]",
+                    "Entity_[434757806561825]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -138,7 +139,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 9626461161837447068
+                            "EditorEntityId": 3243318690196156117
                         }
                     }
                 },
@@ -442,7 +443,8 @@
                                     "MaterialAsset": {
                                         "assetId": {
                                             "guid": "{6254BCAF-AA84-5AD9-AF66-1CC698A6B6CB}"
-                                        }
+                                        },
+                                        "assetHint": "assets/models/bg/moon_surface/moon_surface.azmaterial"
                                     }
                                 }
                             }
@@ -467,6 +469,147 @@
                 "Component_[9147944187248271115]": {
                     "$type": "EditorLockComponent",
                     "Id": 9147944187248271115
+                }
+            }
+        },
+        "Entity_[434757806561825]": {
+            "Id": "Entity_[434757806561825]",
+            "Name": "Spawner",
+            "Components": {
+                "Component_[10406348997074402186]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10406348997074402186
+                },
+                "Component_[11767105396332519977]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11767105396332519977
+                },
+                "Component_[14606793757816244879]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14606793757816244879
+                },
+                "Component_[17649099062776798577]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17649099062776798577
+                },
+                "Component_[17848815623898691536]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17848815623898691536
+                },
+                "Component_[1832021512201739731]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1832021512201739731
+                },
+                "Component_[2384421149895716667]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2384421149895716667,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{191C0680-2BE4-57CB-B91A-B7DEFD4E6421}",
+                            "path": "Assets/Scripts/SpawnPool.scriptcanvas"
+                        },
+                        "sourceName": "SpawnPool.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{191C0680-2BE4-57CB-B91A-B7DEFD4E6421}",
+                                "path": "Assets/Scripts/SpawnPool.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 2.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{6C6D2379-DFAF-41F0-92FC-78B3B4CAF689}"
+                                    },
+                                    "VariableName": "Rows",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 7.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{EDB2FE93-4234-4DF9-A367-FE6D6D919271}"
+                                    },
+                                    "VariableName": "Colums",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 3.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{6C6D2379-DFAF-41F0-92FC-78B3B4CAF689}"
+                                    },
+                                    "VariableName": "Rows",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 7.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{EDB2FE93-4234-4DF9-A367-FE6D6D919271}"
+                                    },
+                                    "VariableName": "Colums",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5204246040869117831]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5204246040869117831,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -41.45960998535156,
+                            19.63888168334961,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[8808898388293321763]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8808898388293321763
+                },
+                "Component_[9021106592269391431]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9021106592269391431
                 }
             }
         },
@@ -582,7 +725,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{1EF4A934-52B9-5F00-812D-E8F55228D066}"
-                                            }
+                                            },
+                                            "assetHint": "assets/models/ch/astronaut/mats/astronaut_astronaut.azmaterial"
                                         }
                                     }
                                 }
