@@ -1,0 +1,249 @@
+{
+    "propertyLayout": {
+        "propertyGroups": [
+            {
+                "name": "general",
+                "displayName": "General",
+                "description": "General",
+                "properties": [
+                    {
+                        "name": "apply_specular_aa",
+                        "displayName": "Apply Specular AA",
+                        "description": "Whether to apply specular anti-aliasing in the shader.",
+                        "type": "Bool",
+                        "defaultValue": true,
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_applySpecularAA"
+                        }
+                    },
+                    {
+                        "name": "cast_shadows",
+                        "displayName": "Cast Shadows",
+                        "description": "Whether to cast shadows onto other objects.",
+                        "type": "Bool",
+                        "defaultValue": true
+                    },
+                    {
+                        "name": "double_sided",
+                        "displayName": "Double Sided",
+                        "description": "Whether to render back-faces or just front-faces.",
+                        "type": "Bool"
+                    },
+                    {
+                        "name": "enable_area_lights",
+                        "displayName": "Enable Area Lights",
+                        "description": "Whether to use area lights.",
+                        "type": "Bool",
+                        "defaultValue": true,
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_enableAreaLights"
+                        }
+                    },
+                    {
+                        "name": "enable_clear_coat",
+                        "displayName": "Enable Clear Coat",
+                        "description": "Enable the clear coat feature for this material.",
+                        "type": "Bool",
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_clearCoat_enabled"
+                        }
+                    },
+                    {
+                        "name": "enable_clear_coat_normal_input",
+                        "displayName": "Enable Clear Coat Normal Input",
+                        "description": "Use normal values from clear coat material inputs.",
+                        "type": "Bool",
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_clearCoat_normal_override_enabled"
+                        }
+                    },
+                    {
+                        "name": "enable_directional_lights",
+                        "displayName": "Enable Directional Lights",
+                        "description": "Whether to use directional lights.",
+                        "type": "Bool",
+                        "defaultValue": true,
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_enableDirectionalLights"
+                        }
+                    },
+                    {
+                        "name": "enable_ibl",
+                        "displayName": "Enable IBL",
+                        "description": "Whether to use Image Based Lighting (IBL).",
+                        "type": "Bool",
+                        "defaultValue": true,
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_enableIBL"
+                        }
+                    },
+                    {
+                        "name": "enable_normal_input",
+                        "displayName": "Enable Normal Input",
+                        "description": "Use normal values from material inputs.",
+                        "type": "Bool",
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_normal_override_enabled"
+                        }
+                    },
+                    {
+                        "name": "enable_punctual_lights",
+                        "displayName": "Enable Punctual Lights",
+                        "description": "Whether to use punctual lights.",
+                        "type": "Bool",
+                        "defaultValue": true,
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_enablePunctualLights"
+                        }
+                    },
+                    {
+                        "name": "forward_pass_ibl_specular",
+                        "displayName": "Forward Pass IBL Specular",
+                        "description": "Whether to apply IBL specular in the forward pass.",
+                        "type": "Bool",
+                        "defaultValue": true,
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_materialUseForwardPassIBLSpecular"
+                        }
+                    },
+                    {
+                        "name": "opacity_affects_specular_factor",
+                        "displayName": "Opacity Affects Specular Factor",
+                        "description": "Opacity Affects Specular Factor",
+                        "type": "Bool",
+                        "defaultValue": true,
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_opacity_affects_specular_factor"
+                        }
+                    },
+                    {
+                        "name": "opacity_mode",
+                        "displayName": "Opacity Mode",
+                        "description": "Indicates the general approach how transparency is to be applied.",
+                        "type": "Enum",
+                        "defaultValue": "Opaque",
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_opacity_mode"
+                        },
+                        "enumValues": [
+                            "Opaque",
+                            "Cutout",
+                            "Blended",
+                            "TintedTransparent"
+                        ]
+                    },
+                    {
+                        "name": "receive_shadows",
+                        "displayName": "Receive Shadows",
+                        "description": "Whether to use the shadow maps during lighting.",
+                        "type": "Bool",
+                        "defaultValue": true,
+                        "connection": {
+                            "type": "ShaderOption",
+                            "name": "o_enableShadows"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "shaders": [
+        {
+            "file": "./ray_gun_energy_ball_anim_ForwardPass.shader",
+            "tag": "ForwardPass"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_ForwardPass_EDS.shader",
+            "tag": "ForwardPass_EDS"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_LowEndForward.shader",
+            "tag": "LowEndForward"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_LowEndForward_EDS.shader",
+            "tag": "LowEndForward_EDS"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_MultiViewForward.shader",
+            "tag": "MultiViewForward"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_MultiViewForward_EDS.shader",
+            "tag": "MultiViewForward_EDS"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_MultiViewTransparentForward_EDS.shader",
+            "tag": "MultiViewTransparentForward"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_Shadowmap.shader",
+            "tag": "Shadowmap"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_Shadowmap_WithPS.shader",
+            "tag": "Shadowmap_WithPS"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_DepthPass.shader",
+            "tag": "DepthPass"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_DepthPass_WithPS.shader",
+            "tag": "DepthPass_WithPS"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_MeshMotionVector.shader",
+            "tag": "MeshMotionVector"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_DepthPassTransparentMin.shader",
+            "tag": "DepthPassTransparentMin"
+        },
+        {
+            "file": "./ray_gun_energy_ball_anim_DepthPassTransparentMax.shader",
+            "tag": "DepthPassTransparentMax"
+        }
+    ],
+    "functors": [
+        {
+            "type": "Lua",
+            "args": {
+                "file": "@gemroot:MaterialCanvas@/Assets/MaterialCanvas/GraphData/Nodes/MaterialOutputs/StandardPBR/HandleShaderEnable.lua"
+            }
+        },
+        {
+            "type": "Lua",
+            "args": {
+                "file": "@gemroot:MaterialCanvas@/Assets/MaterialCanvas/GraphData/Nodes/MaterialOutputs/StandardPBR/HandleOpacityMode.lua"
+            }
+        },
+        {
+            "type": "Lua",
+            "args": {
+                "file": "@gemroot:MaterialCanvas@/Assets/MaterialCanvas/GraphData/Nodes/MaterialOutputs/StandardPBR/HandleOpacityDoubleSided.lua"
+            }
+        },
+        {
+            "type": "Lua",
+            "args": {
+                "file": "@gemroot:MaterialCanvas@/Assets/MaterialCanvas/GraphData/Nodes/MaterialOutputs/StandardPBR/HandleCastShadows.lua"
+            }
+        }
+    ],
+    "uvNameMap": {
+        "UV0": "Tiled",
+        "UV1": "Unwrapped"
+    }
+}
