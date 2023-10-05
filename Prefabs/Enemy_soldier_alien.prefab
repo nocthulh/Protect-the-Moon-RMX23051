@@ -50,9 +50,146 @@
         }
     },
     "Entities": {
+        "Entity_[3929042651424]": {
+            "Id": "Entity_[3929042651424]",
+            "Name": "FirePoint",
+            "Components": {
+                "Component_[1072369386624651293]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1072369386624651293
+                },
+                "Component_[11465073688141554079]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11465073688141554079
+                },
+                "Component_[3126717901641758364]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3126717901641758364
+                },
+                "Component_[4667930265329172799]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4667930265329172799
+                },
+                "Component_[6045652231404078042]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6045652231404078042
+                },
+                "Component_[7108989626714336332]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7108989626714336332
+                },
+                "Component_[7202562020107344337]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7202562020107344337,
+                    "Parent Entity": "Entity_[5334091405857]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.12204957008361816,
+                            1.2660000324249268,
+                            1.5788260698318481
+                        ]
+                    }
+                },
+                "Component_[8302112818633706794]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8302112818633706794
+                },
+                "Component_[9489541398956541048]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9489541398956541048
+                }
+            }
+        },
+        "Entity_[3933337618720]": {
+            "Id": "Entity_[3933337618720]",
+            "Name": "RayGun",
+            "Components": {
+                "Component_[10562130232789155007]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10562130232789155007
+                },
+                "Component_[13228797978802987017]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13228797978802987017
+                },
+                "Component_[13279947689595032448]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13279947689595032448
+                },
+                "Component_[13626074501204272076]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13626074501204272076
+                },
+                "Component_[17668646987801617003]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17668646987801617003
+                },
+                "Component_[18307269487436143362]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18307269487436143362
+                },
+                "Component_[2728650949483769099]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2728650949483769099,
+                    "Parent Entity": "Entity_[5334091405857]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.3176736831665039,
+                            0.7526856660842896,
+                            1.6061981916427612
+                        ],
+                        "Rotate": [
+                            -11.27968978881836,
+                            34.434635162353516,
+                            23.646953582763672
+                        ],
+                        "UniformScale": 0.75
+                    }
+                },
+                "Component_[6229468892390238139]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 6229468892390238139,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{3721CD15-F8EB-527C-9E5A-2D0D9942E2A2}",
+                            "subId": 2514375797
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/ch/alien/geo/raygun.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "Component_[6852815791328619364]": {
+                    "$type": "EditorAttachmentComponent",
+                    "Id": 6852815791328619364,
+                    "Target ID": "Entity_[5334091405857]",
+                    "Target Bone Name": "RightHand",
+                    "Position Offset": [
+                        -0.15000000596046448,
+                        -0.05000000074505806,
+                        0.1899999976158142
+                    ],
+                    "Rotation Offset": [
+                        75.0,
+                        -60.0,
+                        0.0
+                    ],
+                    "Uniform Scale Offset": 0.75,
+                    "Scale Source": 1
+                },
+                "Component_[7981948435876756608]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7981948435876756608
+                },
+                "Component_[947281270840081765]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 947281270840081765
+                }
+            }
+        },
         "Entity_[5334091405857]": {
             "Id": "Entity_[5334091405857]",
-            "Name": "alien_tpose",
+            "Name": "Alien_SOLDIER",
             "Components": {
                 "Component_[1002203306290007987]": {
                     "$type": "EditorActorComponent",
@@ -96,13 +233,83 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 16054768485879796051
                 },
+                "Component_[1687905436607777143]": {
+                    "$type": "EditorSimpleMotionComponent",
+                    "Id": 1687905436607777143,
+                    "PreviewInEditor": true,
+                    "Configuration": {
+                        "MotionAsset": {
+                            "assetId": {
+                                "guid": "{961F6593-E4D2-5763-8E48-86B2D97E4315}",
+                                "subId": 216113611
+                            },
+                            "assetHint": "assets/models/ch/alien/geo/alien_attack_v2.motion"
+                        },
+                        "Loop": true,
+                        "Retarget": true
+                    }
+                },
                 "Component_[18096166203706965004]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 18096166203706965004
                 },
+                "Component_[1812615837430073752]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1812615837430073752,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "Simulated": false,
+                        "Position": [
+                            0.0,
+                            0.5,
+                            1.0
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Enemy"
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Scale": [
+                                4.0,
+                                4.0,
+                                4.0
+                            ],
+                            "Radius": 1.5
+                        },
+                        "Box": {
+                            "Scale": [
+                                4.0,
+                                4.0,
+                                4.0
+                            ]
+                        }
+                    }
+                },
                 "Component_[2052521153884839225]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 2052521153884839225
+                },
+                "Component_[2293303454347716913]": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 2293303454347716913,
+                    "Configuration": {
+                        "entityId": "",
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Enemy"
+                    }
                 },
                 "Component_[2915515463286804494]": {
                     "$type": "EditorMaterialComponent",
@@ -132,7 +339,11 @@
                 },
                 "Component_[8035609554189601947]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 8035609554189601947
+                    "Id": 8035609554189601947,
+                    "Child Entity Order": [
+                        "Entity_[3929042651424]",
+                        "Entity_[3933337618720]"
+                    ]
                 }
             }
         },
