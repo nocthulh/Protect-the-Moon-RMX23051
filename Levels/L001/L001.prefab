@@ -23,7 +23,9 @@
                     "Entity_[602613131258]",
                     "Entity_[466763616338]",
                     "Entity_[2907434883617]",
-                    "Entity_[434757806561825]"
+                    "Entity_[434757806561825]",
+                    "Instance_[2369969522976]/ContainerEntity",
+                    "Instance_[3783013763360]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -996,6 +998,108 @@
                     }
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[2369969522976]": {
+            "Source": "Prefabs/Enemy_soldier_alien.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13182172002121826554]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13182172002121826554]/Transform Data/Translate/0",
+                    "value": -11.481790542602539
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5334091405857]/Components/Component_[1687905436607777143]/Configuration/Loop",
+                    "value": true
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5334091405857]/Components/Component_[3819506318465809566]/Transform Data/Translate/1",
+                    "value": 39.98509979248047
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3933337618720]/Components/Component_[2728650949483769099]/Transform Data/Translate/0",
+                    "value": 0.2924034595489502
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3933337618720]/Components/Component_[2728650949483769099]/Transform Data/Translate/1",
+                    "value": 0.7522211074829102
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3933337618720]/Components/Component_[2728650949483769099]/Transform Data/Translate/2",
+                    "value": 1.575172781944275
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3933337618720]/Components/Component_[2728650949483769099]/Transform Data/Rotate/0",
+                    "value": -9.85804557800293
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3933337618720]/Components/Component_[2728650949483769099]/Transform Data/Rotate/1",
+                    "value": 34.14820098876953
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3933337618720]/Components/Component_[2728650949483769099]/Transform Data/Rotate/2",
+                    "value": 22.587696075439453
+                }
+            ]
+        },
+        "Instance_[3783013763360]": {
+            "Source": "Assets/Models/Ch/Alien/Prefabs/Enemy_OLD.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[106521126675891]/Components/Component_[4571000867582339735]/Transform Data/Translate/0",
+                    "value": -0.006666660308837891
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[106521126675891]/Components/Component_[4571000867582339735]/Transform Data/Translate/1",
+                    "value": 0.41666698455810547
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[106521126675891]/Components/Component_[4571000867582339735]/Transform Data/Translate/2",
+                    "value": 0.5800000429153442
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[106521126675891]/Components/Component_[4571000867582339735]/Transform Data/Rotate/0",
+                    "value": 45.06999969482422
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5141648006832933424]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5141648006832933424]/Transform Data/Translate/0",
+                    "value": -2.0839576721191406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5141648006832933424]/Transform Data/Translate/1",
+                    "value": -40.33686065673828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5141648006832933424]/Transform Data/Translate/2",
+                    "value": -0.5932426452636719
+                }
+            ]
         }
     }
 }
