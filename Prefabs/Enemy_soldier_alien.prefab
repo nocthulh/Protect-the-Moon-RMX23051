@@ -290,6 +290,9 @@
                                 4.0
                             ]
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "Component_[2052521153884839225]": {
@@ -344,6 +347,23 @@
                         "Entity_[3929042651424]",
                         "Entity_[3933337618720]"
                     ]
+                },
+                "Component_[9041862295529235676]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 9041862295529235676,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{DA0C86B5-A924-5A61-B495-408745C8FC6B}",
+                            "path": "Assets/Models/Ch/Alien/Scripts/Enemy.scriptcanvas"
+                        },
+                        "sourceName": "Enemy.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{DA0C86B5-A924-5A61-B495-408745C8FC6B}",
+                                "path": "Assets/Models/Ch/Alien/Scripts/Enemy.scriptcanvas"
+                            }
+                        }
+                    }
                 }
             }
         },
